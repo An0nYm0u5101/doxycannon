@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.18.3
 
 # Install packages
 RUN echo 'http://dl-4.alpinelinux.org/alpine/edge/testing' >> /etc/apk/repositories && \
